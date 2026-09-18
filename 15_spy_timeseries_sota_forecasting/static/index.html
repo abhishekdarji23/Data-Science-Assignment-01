@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>SPY Time Series Forecasting Comparison</title>
+<link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <header>
+    <h1>📈 SPY Time Series Forecasting</h1>
+    <p class="subtitle">5 forecasting methods, honestly compared on 1-step-ahead held-out performance.</p>
+  </header>
+
+  <main>
+    <section class="panel">
+      <h2>Leaderboard</h2>
+      <p class="hint">Financial price series are close to a random walk — beating naive persistence is a genuinely hard bar, not a strawman. See which methods actually clear it.</p>
+      <div id="leaderboard-box">Loading…</div>
+    </section>
+
+    <section class="panel">
+      <h2>Test period: actual vs. naive forecast</h2>
+      <canvas id="chart-canvas" width="700" height="300"></canvas>
+    </section>
+
+    <section class="panel">
+      <h2>Live next-day forecast</h2>
+      <button class="run-btn" id="forecast-btn">Get tomorrow's forecast from all 5 methods</button>
+      <div class="result-box" id="forecast-result"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Built with FastAPI + statsmodels + scikit-learn. See README.md for architecture.</p>
+  </footer>
+
+<script src="/static/app.js"></script>
+</body>
+</html>

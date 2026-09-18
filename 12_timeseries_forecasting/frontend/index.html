@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>TimePulse Forecasting</title>
+  <style>
+    body { font-family: sans-serif; max-width: 900px; margin: 40px auto; padding: 0 16px; }
+    h1 { font-size: 1.3rem; }
+    .tabs { display: flex; gap: 6px; margin-bottom: 16px; }
+    .tabs button { padding: 6px 12px; font-size: 0.85rem; cursor: pointer; border: 1px solid #ccc; background: #f4f4f4; }
+    .tabs button.active { background: #1c2733; color: #fff; }
+    section { display: none; }
+    section.active { display: block; }
+    svg { width: 100%; height: 320px; border: 1px solid #ddd; background: #fafafa; }
+    .stat { display: inline-block; margin-right: 24px; font-size: 0.9rem; }
+    .stat b { font-size: 1.1rem; }
+    .note { color: #666; font-size: 0.85rem; }
+    label { font-size: 0.85rem; margin-right: 6px; }
+  </style>
+</head>
+<body>
+  <h1>TimePulse — time series forecasting</h1>
+  <div class="tabs" id="tabs"></div>
+  <section id="content"><p class="note">Loading…</p></section>
+  <script src="app.js"></script>
+</body>
+</html>

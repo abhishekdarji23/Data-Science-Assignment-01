@@ -1,0 +1,70 @@
+* { box-sizing: border-box; }
+body {
+  font-family: -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  margin: 0;
+  background: #f5f6f8;
+  color: #1c1e21;
+}
+header {
+  background: #16213e;
+  color: white;
+  padding: 20px 24px;
+}
+header h1 { margin: 0 0 4px 0; font-size: 22px; }
+.subtitle { margin: 0; color: #b9c0d4; font-size: 14px; max-width: 640px; }
+
+main {
+  max-width: 900px;
+  margin: 24px auto;
+  padding: 0 16px;
+}
+.panel {
+  background: white;
+  border: 1px solid #e2e4e9;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.panel h2 { margin-top: 0; font-size: 16px; }
+.hint { font-size: 13px; color: #666; }
+
+button.run-btn {
+  background: #16213e; color: white; border: none; padding: 10px 16px;
+  border-radius: 6px; cursor: pointer; font-size: 13px; margin-right: 8px; margin-top: 4px;
+}
+button.run-btn:hover { background: #24325c; }
+button.run-btn.secondary { background: #7a2222; }
+button.run-btn.secondary:hover { background: #9a2c2c; }
+button.run-btn.tertiary { background: #555; }
+button.run-btn.tertiary:hover { background: #6a6a6a; }
+
+.score-display { display: flex; align-items: center; gap: 20px; }
+.score-circle {
+  width: 90px; height: 90px; border-radius: 50%; display: flex; align-items: center; justify-content: center;
+  font-size: 22px; font-weight: 700; color: white; flex-shrink: 0;
+}
+.score-circle.good { background: #1a7f37; }
+.score-circle.bad { background: #d32f2f; }
+.score-circle.mid { background: #f9a825; }
+.score-meta { font-size: 13px; color: #444; }
+
+table { border-collapse: collapse; width: 100%; font-size: 13px; }
+th, td { text-align: left; padding: 6px 8px; border-bottom: 1px solid #eee; }
+th { background: #f0f2f7; }
+
+.phase-group { margin-bottom: 16px; }
+.phase-title { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: #16213e; margin-bottom: 6px; }
+
+.check-card { border-radius: 6px; padding: 10px 12px; margin-bottom: 8px; font-size: 13px; }
+.check-card.pass { background: #eaf7ec; border-left: 4px solid #1a7f37; }
+.check-card.fail { background: #fdecea; border-left: 4px solid #d32f2f; }
+.check-card .check-title { font-weight: 700; }
+.check-card .check-detail { color: #444; margin-top: 3px; }
+.check-badge { font-size: 11px; font-weight: 700; padding: 1px 7px; border-radius: 10px; margin-left: 6px; }
+.check-badge.pass { background: #1a7f37; color: white; }
+.check-badge.fail { background: #d32f2f; color: white; }
+
+.compare-columns { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.compare-columns h3 { font-size: 13px; margin: 0 0 8px 0; }
+
+footer { text-align: center; color: #888; font-size: 12px; padding: 20px; }

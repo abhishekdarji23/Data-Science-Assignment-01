@@ -1,0 +1,34 @@
+{
+  "n_listings": 1500,
+  "n_train": 1200,
+  "n_test": 300,
+  "tabular_feature_names": [
+    "bedrooms",
+    "bathrooms",
+    "accommodates",
+    "room_type_Private room",
+    "room_type_Shared room",
+    "neighborhood_Uptown",
+    "neighborhood_Waterfront",
+    "neighborhood_Suburb"
+  ],
+  "text_max_features": 300,
+  "ridge_alpha": 5.0,
+  "leaderboard": {
+    "tabular_only": {
+      "mae_usd": 29.97,
+      "r2": 0.6163
+    },
+    "text_only": {
+      "mae_usd": 42.67,
+      "r2": 0.2518
+    },
+    "fusion": {
+      "mae_usd": 10.02,
+      "r2": 0.9552
+    }
+  },
+  "best_model": "fusion",
+  "fusion_beats_both_singles": true,
+  "random_seed": 42
+}

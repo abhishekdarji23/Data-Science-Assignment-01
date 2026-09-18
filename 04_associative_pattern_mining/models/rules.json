@@ -143,17 +143,6 @@
   },
   {
     "antecedents": [
-      "pasta"
-    ],
-    "consequents": [
-      "tomato_sauce"
-    ],
-    "support": 0.098,
-    "confidence": 0.6983,
-    "lift": 3.4176
-  },
-  {
-    "antecedents": [
       "tomato_sauce"
     ],
     "consequents": [
@@ -161,6 +150,17 @@
     ],
     "support": 0.098,
     "confidence": 0.4796,
+    "lift": 3.4176
+  },
+  {
+    "antecedents": [
+      "pasta"
+    ],
+    "consequents": [
+      "tomato_sauce"
+    ],
+    "support": 0.098,
+    "confidence": 0.6983,
     "lift": 3.4176
   },
   {
@@ -177,18 +177,6 @@
   },
   {
     "antecedents": [
-      "pasta"
-    ],
-    "consequents": [
-      "parmesan",
-      "tomato_sauce"
-    ],
-    "support": 0.0463,
-    "confidence": 0.3302,
-    "lift": 3.3463
-  },
-  {
-    "antecedents": [
       "parmesan",
       "tomato_sauce"
     ],
@@ -197,6 +185,18 @@
     ],
     "support": 0.0463,
     "confidence": 0.4696,
+    "lift": 3.3463
+  },
+  {
+    "antecedents": [
+      "pasta"
+    ],
+    "consequents": [
+      "parmesan",
+      "tomato_sauce"
+    ],
+    "support": 0.0463,
+    "confidence": 0.3302,
     "lift": 3.3463
   },
   {
@@ -330,17 +330,6 @@
   },
   {
     "antecedents": [
-      "tomato_sauce"
-    ],
-    "consequents": [
-      "parmesan"
-    ],
-    "support": 0.0987,
-    "confidence": 0.4829,
-    "lift": 3.0497
-  },
-  {
-    "antecedents": [
       "parmesan"
     ],
     "consequents": [
@@ -348,6 +337,17 @@
     ],
     "support": 0.0987,
     "confidence": 0.6232,
+    "lift": 3.0497
+  },
+  {
+    "antecedents": [
+      "tomato_sauce"
+    ],
+    "consequents": [
+      "parmesan"
+    ],
+    "support": 0.0987,
+    "confidence": 0.4829,
     "lift": 3.0497
   },
   {
@@ -424,17 +424,6 @@
   },
   {
     "antecedents": [
-      "salsa"
-    ],
-    "consequents": [
-      "chips"
-    ],
-    "support": 0.119,
-    "confidence": 0.6051,
-    "lift": 2.9044
-  },
-  {
-    "antecedents": [
       "chips"
     ],
     "consequents": [
@@ -442,6 +431,17 @@
     ],
     "support": 0.119,
     "confidence": 0.5712,
+    "lift": 2.9044
+  },
+  {
+    "antecedents": [
+      "salsa"
+    ],
+    "consequents": [
+      "chips"
+    ],
+    "support": 0.119,
+    "confidence": 0.6051,
     "lift": 2.9044
   },
   {
@@ -518,17 +518,6 @@
   },
   {
     "antecedents": [
-      "rice"
-    ],
-    "consequents": [
-      "chicken"
-    ],
-    "support": 0.0927,
-    "confidence": 0.4752,
-    "lift": 2.5687
-  },
-  {
-    "antecedents": [
       "chicken"
     ],
     "consequents": [
@@ -536,6 +525,17 @@
     ],
     "support": 0.0927,
     "confidence": 0.5009,
+    "lift": 2.5687
+  },
+  {
+    "antecedents": [
+      "rice"
+    ],
+    "consequents": [
+      "chicken"
+    ],
+    "support": 0.0927,
+    "confidence": 0.4752,
     "lift": 2.5687
   },
   {
@@ -1145,17 +1145,6 @@
   },
   {
     "antecedents": [
-      "apples"
-    ],
-    "consequents": [
-      "bananas"
-    ],
-    "support": 0.1087,
-    "confidence": 0.3786,
-    "lift": 1.5539
-  },
-  {
-    "antecedents": [
       "bananas"
     ],
     "consequents": [
@@ -1163,6 +1152,17 @@
     ],
     "support": 0.1087,
     "confidence": 0.446,
+    "lift": 1.5539
+  },
+  {
+    "antecedents": [
+      "apples"
+    ],
+    "consequents": [
+      "bananas"
+    ],
+    "support": 0.1087,
+    "confidence": 0.3786,
     "lift": 1.5539
   },
   {

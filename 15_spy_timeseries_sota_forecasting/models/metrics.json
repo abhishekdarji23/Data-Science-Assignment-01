@@ -1,0 +1,62 @@
+{
+  "n_days_total": 1500,
+  "n_train": 1275,
+  "n_test": 225,
+  "test_fraction": 0.15,
+  "ma_window": 5,
+  "arima_order": [
+    1,
+    1,
+    1
+  ],
+  "feature_columns": [
+    "lag_1",
+    "lag_2",
+    "lag_3",
+    "lag_5",
+    "lag_10",
+    "roll_mean_5",
+    "roll_mean_10",
+    "roll_std_5",
+    "roll_std_10",
+    "day_of_week",
+    "prev_return"
+  ],
+  "leaderboard": {
+    "naive": {
+      "mae_usd": 3.796,
+      "rmse_usd": 4.925,
+      "mape_pct": 1.048
+    },
+    "moving_average": {
+      "mae_usd": 4.976,
+      "rmse_usd": 6.472,
+      "mape_pct": 1.363
+    },
+    "exponential_smoothing": {
+      "mae_usd": 3.776,
+      "rmse_usd": 4.892,
+      "mape_pct": 1.042
+    },
+    "arima": {
+      "mae_usd": 3.778,
+      "rmse_usd": 4.915,
+      "mape_pct": 1.043
+    },
+    "gradient_boosting": {
+      "mae_usd": 3.894,
+      "rmse_usd": 5.136,
+      "mape_pct": 1.071
+    }
+  },
+  "best_method": "exponential_smoothing",
+  "beats_naive": {
+    "naive": false,
+    "moving_average": false,
+    "exponential_smoothing": true,
+    "arima": true,
+    "gradient_boosting": false
+  },
+  "random_seed": 42,
+  "training_wall_time_seconds": 28.1
+}

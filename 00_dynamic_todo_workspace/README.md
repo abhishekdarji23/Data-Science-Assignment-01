@@ -20,7 +20,7 @@ with a handful of intentional changes noted below.
 # Terminal 1 — backend (port 5000)
 cd server
 npm install
-npm run dev
+PORT=5001 npm run dev
 
 # Terminal 2 — frontend (port 5173)
 cd client

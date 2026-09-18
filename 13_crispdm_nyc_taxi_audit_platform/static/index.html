@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>CRISP-DM NYC Taxi Audit Platform</title>
+<link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <header>
+    <h1>🕵️ CRISP-DM NYC Taxi Audit Platform</h1>
+    <p class="subtitle">A live, executable CRISP-DM &amp; leakage audit — every check runs for real against a freshly-trained pipeline, not a static report.</p>
+  </header>
+
+  <main>
+    <section class="panel">
+      <h2>Run the audit</h2>
+      <p class="hint">"Clean" follows correct practice throughout. "Flawed" deliberately violates 4 real rules (target leakage, random split on time-series data, unseeded training, duplicates left in) — run it to see the audit actually catch them.</p>
+      <button class="run-btn" id="run-clean-btn">Run audit: clean pipeline</button>
+      <button class="run-btn secondary" id="run-flawed-btn">Run audit: flawed pipeline</button>
+      <button class="run-btn tertiary" id="run-compare-btn">Compare both, side by side</button>
+    </section>
+
+    <section class="panel" id="score-panel" style="display:none;">
+      <h2>Compliance score</h2>
+      <div id="score-box"></div>
+    </section>
+
+    <section class="panel" id="pipeline-panel" style="display:none;">
+      <h2>Pipeline summary</h2>
+      <div id="pipeline-box"></div>
+    </section>
+
+    <section class="panel" id="checks-panel" style="display:none;">
+      <h2>Checks by CRISP-DM phase</h2>
+      <div id="checks-box"></div>
+    </section>
+
+    <section class="panel" id="compare-panel" style="display:none;">
+      <h2>Clean vs. flawed — side by side</h2>
+      <div id="compare-box"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Built with FastAPI + scikit-learn. Every audit check executes live against a real trained model. See README.md for architecture.</p>
+  </footer>
+
+<script src="/static/app.js"></script>
+</body>
+</html>

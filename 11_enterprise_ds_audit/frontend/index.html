@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Enterprise DS Audit</title>
+  <style>
+    body { font-family: sans-serif; max-width: 900px; margin: 40px auto; padding: 0 16px; }
+    h1 { font-size: 1.3rem; }
+    .overall { display: flex; align-items: center; gap: 12px; margin-bottom: 20px; }
+    .score-badge { font-size: 1.8rem; font-weight: bold; padding: 6px 16px; border-radius: 6px; color: #fff; }
+    .status-pass { background: #1f7a5c; }
+    .status-warning { background: #b08900; }
+    .status-fail { background: #c1440e; }
+    .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    @media (max-width: 700px) { .grid { grid-template-columns: 1fr; } }
+    .card { border: 1px solid #ddd; border-radius: 6px; padding: 14px; }
+    .card h3 { margin: 0 0 6px; font-size: 1rem; display: flex; justify-content: space-between; }
+    .card ul { margin: 6px 0 0; padding-left: 18px; font-size: 0.85rem; color: #333; }
+    .note { color: #666; font-size: 0.85rem; }
+  </style>
+</head>
+<body>
+  <h1>Enterprise DS Audit — 6-dimension quality &amp; leakage scorecard</h1>
+  <p class="note">Auditing a synthetic train/test dataset that has a handful of real problems seeded into it on purpose.</p>
+
+  <div id="overall" class="overall"></div>
+  <div id="grid" class="grid"><p class="note">Loading…</p></div>
+
+  <script src="app.js"></script>
+</body>
+</html>

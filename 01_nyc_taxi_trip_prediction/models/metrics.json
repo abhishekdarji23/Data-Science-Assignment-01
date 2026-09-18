@@ -2,7 +2,7 @@
   "n_train": 48000,
   "n_test": 12000,
   "mae_seconds": 81.2,
-  "rmse_seconds": 121.5,
+  "rmse_seconds": 121.4,
   "rmsle": 0.2952,
   "r2": 0.8907,
   "features": [

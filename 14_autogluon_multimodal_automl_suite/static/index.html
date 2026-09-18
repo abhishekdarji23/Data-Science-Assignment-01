@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Multimodal AutoML Suite — Listing Price</title>
+<link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <header>
+    <h1>🏠🔤 Multimodal AutoML Suite</h1>
+    <p class="subtitle">Tabular-only vs. text-only vs. fusion — proving multimodal fusion actually adds value.</p>
+  </header>
+
+  <main>
+    <section class="panel">
+      <h2>Leaderboard</h2>
+      <p class="hint">Same algorithm (Ridge regression) for all 3 — only the FEATURES differ, isolating the effect of fusing modalities.</p>
+      <div id="leaderboard-box">Loading…</div>
+    </section>
+
+    <section class="panel">
+      <h2>Predict a listing's price</h2>
+      <p class="hint">Try changing just the description while keeping the tabular fields the same — watch tabular-only stay frozen while fusion picks up the quality signal.</p>
+      <form id="predict-form">
+        <label>Bedrooms <input type="number" id="bedrooms" value="2" min="1" max="10" /></label>
+        <label>Bathrooms <input type="number" id="bathrooms" value="1" min="1" max="6" /></label>
+        <label>Accommodates <input type="number" id="accommodates" value="4" min="1" max="16" /></label>
+        <label>Room type
+          <select id="room_type">
+            <option>Entire home/apt</option>
+            <option>Private room</option>
+            <option>Shared room</option>
+          </select>
+        </label>
+        <label>Neighborhood
+          <select id="neighborhood">
+            <option>Downtown</option>
+            <option>Uptown</option>
+            <option>Waterfront</option>
+            <option>Suburb</option>
+          </select>
+        </label>
+        <label class="full-width">Description
+          <textarea id="description" rows="3">Stunning skyline view. Designer furnished. Private rooftop access.</textarea>
+        </label>
+        <button type="submit" class="run-btn">Predict price</button>
+      </form>
+      <div class="result-box" id="predict-result"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Built with FastAPI + scikit-learn (TF-IDF + Ridge). See README.md for architecture.</p>
+  </footer>
+
+<script src="/static/app.js"></script>
+</body>
+</html>

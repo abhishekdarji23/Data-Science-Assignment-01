@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>NYC Taxi Trip Duration Predictor</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <header>
+    <h1>🚕 NYC Taxi Trip Duration Predictor</h1>
+    <p class="subtitle">CRISP-DM demo project — click the map to set pickup &amp; dropoff, then estimate.</p>
+  </header>
+
+  <main>
+    <section class="panel">
+      <h2>1. Set pickup &amp; dropoff</h2>
+      <div id="map"></div>
+      <p class="hint">First click sets <strong>pickup</strong> (green), second click sets <strong>dropoff</strong> (red). Click again to reset.</p>
+
+      <h2>2. Trip details</h2>
+      <form id="trip-form">
+        <label>Pickup datetime
+          <input type="datetime-local" id="pickup_datetime" required />
+        </label>
+        <label>Passenger count
+          <input type="number" id="passenger_count" value="1" min="1" max="6" required />
+        </label>
+        <button type="submit">Estimate trip</button>
+      </form>
+    </section>
+
+    <section class="panel" id="result-panel" style="display:none;">
+      <h2>Prediction</h2>
+      <div class="result-grid">
+        <div class="result-card"><span class="label">Predicted duration</span><span class="value" id="r-duration">–</span></div>
+        <div class="result-card"><span class="label">Distance</span><span class="value" id="r-distance">–</span></div>
+        <div class="result-card"><span class="label">Estimated fare</span><span class="value" id="r-fare">–</span></div>
+        <div class="result-card"><span class="label">Avg. speed</span><span class="value" id="r-speed">–</span></div>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>Model card (admin / data-scientist view)</h2>
+      <div id="metrics-box">Loading metrics…</div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Built with FastAPI + scikit-learn (GradientBoostingRegressor) on a CRISP-DM pipeline. See README.md for architecture.</p>
+  </footer>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="/static/app.js"></script>
+</body>
+</html>

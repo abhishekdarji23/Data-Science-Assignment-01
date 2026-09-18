@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Customer Segmentation Clustering</title>
+<link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <header>
+    <h1>🧩 Customer Segmentation Clustering</h1>
+    <p class="subtitle">CRISP-DM demo project — KMeans clustering on Age, Annual Income &amp; Spending Score.</p>
+  </header>
+
+  <main>
+    <section class="panel">
+      <h2>Customer map (Income vs. Spending Score, colored by segment)</h2>
+      <canvas id="scatter" height="110"></canvas>
+      <div id="legend" class="legend"></div>
+    </section>
+
+    <section class="panel">
+      <h2>Segment profiles</h2>
+      <div id="clusters-box">Loading segments…</div>
+    </section>
+
+    <section class="panel">
+      <h2>Which segment is a new customer in?</h2>
+      <form id="predict-form">
+        <label>Age
+          <input type="number" id="age" value="35" min="15" max="100" required />
+        </label>
+        <label>Annual income (k$)
+          <input type="number" id="income" value="60" min="0" max="500" required />
+        </label>
+        <label>Spending score (1–100)
+          <input type="number" id="spending" value="50" min="1" max="100" required />
+        </label>
+        <button type="submit">Assign segment</button>
+      </form>
+      <div id="predict-result" style="display:none;">
+        <span class="label">Predicted segment</span>
+        <span class="value" id="predict-value">–</span>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>Model card (admin / data-scientist view)</h2>
+      <div id="metrics-box">Loading metrics…</div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Built with FastAPI + scikit-learn (KMeans, StandardScaler) on a CRISP-DM pipeline. See README.md for architecture.</p>
+  </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+<script src="/static/app.js"></script>
+</body>
+</html>

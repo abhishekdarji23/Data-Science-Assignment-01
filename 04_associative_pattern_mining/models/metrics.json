@@ -1,0 +1,53 @@
+{
+  "n_transactions": 3000,
+  "n_unique_items": 22,
+  "avg_basket_size": 4.44,
+  "min_support": 0.03,
+  "min_confidence": 0.3,
+  "min_lift": 1.1,
+  "n_frequent_itemsets": 226,
+  "n_rules": 118,
+  "top_items_by_support": [
+    {
+      "item": "milk",
+      "support": 0.378
+    },
+    {
+      "item": "butter",
+      "support": 0.2987
+    },
+    {
+      "item": "apples",
+      "support": 0.287
+    },
+    {
+      "item": "bread",
+      "support": 0.273
+    },
+    {
+      "item": "bananas",
+      "support": 0.2437
+    },
+    {
+      "item": "eggs",
+      "support": 0.2137
+    },
+    {
+      "item": "chips",
+      "support": 0.2083
+    },
+    {
+      "item": "tomato_sauce",
+      "support": 0.2043
+    },
+    {
+      "item": "salsa",
+      "support": 0.1967
+    },
+    {
+      "item": "rice",
+      "support": 0.195
+    }
+  ],
+  "algorithm": "Apriori (mlxtend)"
+}

@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Nano Transformer</title>
+  <style>
+    body { font-family: monospace; max-width: 640px; margin: 40px auto; padding: 0 16px; }
+    h1 { font-size: 1.3rem; }
+    textarea { width: 100%; box-sizing: border-box; padding: 8px; font-family: inherit; font-size: 1rem; }
+    button { margin-top: 8px; padding: 8px 16px; font-family: inherit; cursor: pointer; }
+    #output { white-space: pre-wrap; border: 1px solid #ccc; padding: 12px; margin-top: 16px; min-height: 60px; background: #fafafa; }
+    #status { color: #666; font-size: 0.85rem; margin-top: 4px; }
+  </style>
+</head>
+<body>
+  <h1>Nano Transformer — chat</h1>
+  <p>Ask it one of the questions it was fine-tuned on (e.g. "What does the robot do in the evening?"), or try a free-form prompt.</p>
+
+  <textarea id="prompt" rows="2" placeholder="Type a prompt...">What does the robot do in the evening?</textarea>
+  <br />
+  <button id="send">Generate</button>
+  <div id="status"></div>
+  <div id="output"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>

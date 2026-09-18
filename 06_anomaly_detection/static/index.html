@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Anomaly Detection — Transaction Risk Scoring</title>
+<link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <header>
+    <h1>🚨 Anomaly Detection Dashboard</h1>
+    <p class="subtitle">CRISP-DM demo project — Isolation Forest vs. LOF vs. z-score baseline on transaction data.</p>
+  </header>
+
+  <main>
+    <section class="panel">
+      <h2>Method comparison</h2>
+      <p class="hint">All 3 methods are unsupervised — they never see the true anomaly label while fitting. PR-AUC is the headline metric since anomalies are rare (~3%).</p>
+      <div id="methods-box">Loading…</div>
+    </section>
+
+    <section class="panel">
+      <h2>Score a new transaction</h2>
+      <form id="score-form">
+        <label>Amount (USD)
+          <input type="number" id="amount" value="45" min="0" step="0.01" required />
+        </label>
+        <label>Hour of day (0–23)
+          <input type="number" id="hour" value="14" min="0" max="23" required />
+        </label>
+        <label>Account age (days)
+          <input type="number" id="account_age" value="400" min="0" required />
+        </label>
+        <label>Transactions in last hour
+          <input type="number" id="tx_last_hour" value="1" min="0" required />
+        </label>
+        <label>Distance from home (km)
+          <input type="number" id="distance" value="3" min="0" step="0.1" required />
+        </label>
+        <button type="submit">Score transaction</button>
+      </form>
+      <div id="score-result" style="display:none;"></div>
+    </section>
+
+    <section class="panel">
+      <h2>Review queue — top flagged transactions</h2>
+      <div id="anomalies-box">Loading…</div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Built with FastAPI + scikit-learn (Isolation Forest, LOF, z-score) on a CRISP-DM pipeline. See README.md for architecture.</p>
+  </footer>
+
+<script src="/static/app.js"></script>
+</body>
+</html>

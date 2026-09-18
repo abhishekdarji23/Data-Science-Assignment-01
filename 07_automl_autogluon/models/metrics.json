@@ -1,0 +1,80 @@
+{
+  "n_customers": 2000,
+  "n_train": 1600,
+  "n_test": 400,
+  "churn_rate": 0.442,
+  "feature_names": [
+    "tenure_months",
+    "monthly_charges",
+    "total_charges",
+    "num_support_calls",
+    "contract_type_One year",
+    "contract_type_Two year",
+    "internet_service_Fiber optic",
+    "internet_service_No",
+    "tech_support_Yes",
+    "payment_method_Mailed check",
+    "payment_method_Bank transfer",
+    "payment_method_Credit card"
+  ],
+  "model_zoo": [
+    "logistic_regression",
+    "random_forest",
+    "gradient_boosting",
+    "k_nearest_neighbors",
+    "decision_tree"
+  ],
+  "n_folds_for_stacking": 5,
+  "leaderboard": {
+    "logistic_regression": {
+      "accuracy": 0.6825,
+      "precision": 0.6276,
+      "recall": 0.6949,
+      "f1": 0.6595,
+      "roc_auc": 0.7382
+    },
+    "random_forest": {
+      "accuracy": 0.67,
+      "precision": 0.6077,
+      "recall": 0.7175,
+      "f1": 0.658,
+      "roc_auc": 0.7232
+    },
+    "gradient_boosting": {
+      "accuracy": 0.66,
+      "precision": 0.599,
+      "recall": 0.7006,
+      "f1": 0.6458,
+      "roc_auc": 0.7187
+    },
+    "k_nearest_neighbors": {
+      "accuracy": 0.6475,
+      "precision": 0.5947,
+      "recall": 0.6384,
+      "f1": 0.6158,
+      "roc_auc": 0.6978
+    },
+    "decision_tree": {
+      "accuracy": 0.645,
+      "precision": 0.5907,
+      "recall": 0.6441,
+      "f1": 0.6162,
+      "roc_auc": 0.692
+    },
+    "stacked_ensemble": {
+      "accuracy": 0.6725,
+      "precision": 0.6106,
+      "recall": 0.7175,
+      "f1": 0.6597,
+      "roc_auc": 0.7385
+    }
+  },
+  "best_model": "stacked_ensemble",
+  "meta_learner_weights": {
+    "logistic_regression": 1.885,
+    "random_forest": 1.453,
+    "gradient_boosting": 0.937,
+    "k_nearest_neighbors": -0.028,
+    "decision_tree": 0.346
+  }
+}

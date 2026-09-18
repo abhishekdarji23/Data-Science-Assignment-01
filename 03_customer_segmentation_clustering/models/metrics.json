@@ -1,0 +1,98 @@
+{
+  "n_customers": 500,
+  "features": [
+    "Age",
+    "Annual Income (k$)",
+    "Spending Score (1-100)"
+  ],
+  "k_candidates_tried": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "silhouette_by_k": {
+    "2": 0.3347,
+    "3": 0.3722,
+    "4": 0.3987,
+    "5": 0.3704,
+    "6": 0.3604,
+    "7": 0.345,
+    "8": 0.3466
+  },
+  "chosen_k": 4,
+  "chosen_k_silhouette": 0.3987,
+  "elbow_inertia_by_k": [
+    {
+      "k": 2,
+      "inertia": 911.32
+    },
+    {
+      "k": 3,
+      "inertia": 652.77
+    },
+    {
+      "k": 4,
+      "inertia": 468.3
+    },
+    {
+      "k": 5,
+      "inertia": 389.6
+    },
+    {
+      "k": 6,
+      "inertia": 342.11
+    },
+    {
+      "k": 7,
+      "inertia": 296.28
+    },
+    {
+      "k": 8,
+      "inertia": 255.35
+    }
+  ],
+  "cluster_profiles": [
+    {
+      "cluster": 0,
+      "label": "Budget-Conscious",
+      "size": 129,
+      "pct_of_customers": 25.8,
+      "avg_age": 45.7,
+      "avg_income_k": 26.1,
+      "avg_spending_score": 19.3
+    },
+    {
+      "cluster": 1,
+      "label": "High Income, High Spend (VIP)",
+      "size": 105,
+      "pct_of_customers": 21.0,
+      "avg_age": 33.3,
+      "avg_income_k": 86.5,
+      "avg_spending_score": 81.9
+    },
+    {
+      "cluster": 2,
+      "label": "High Income, Low Spend (Save-to-convert)",
+      "size": 92,
+      "pct_of_customers": 18.4,
+      "avg_age": 48.2,
+      "avg_income_k": 83.5,
+      "avg_spending_score": 19.5
+    },
+    {
+      "cluster": 3,
+      "label": "Moderate, Balanced Spender",
+      "size": 174,
+      "pct_of_customers": 34.8,
+      "avg_age": 35.5,
+      "avg_income_k": 53.8,
+      "avg_spending_score": 48.2
+    }
+  ],
+  "model": "KMeans",
+  "random_seed": 42
+}

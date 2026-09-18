@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>AutoML Stacking — Customer Churn</title>
+<link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <header>
+    <h1>🧠 AutoML Stacking — Customer Churn</h1>
+    <p class="subtitle">CRISP-DM demo project — a model zoo + out-of-fold stacking ensemble, AutoGluon-style.</p>
+  </header>
+
+  <main>
+    <section class="panel">
+      <h2>Leaderboard</h2>
+      <p class="hint">5 base models + a stacked meta-learner, ranked by ROC-AUC on a held-out test set.</p>
+      <div id="leaderboard-box">Loading…</div>
+    </section>
+
+    <section class="panel">
+      <h2>Score a customer</h2>
+      <form id="score-form">
+        <label>Tenure (months)
+          <input type="number" id="tenure" value="3" min="0" required />
+        </label>
+        <label>Monthly charges ($)
+          <input type="number" id="monthly" value="90" min="0" step="0.01" required />
+        </label>
+        <label>Total charges ($)
+          <input type="number" id="total" value="270" min="0" step="0.01" required />
+        </label>
+        <label>Contract type
+          <select id="contract">
+            <option>Month-to-month</option>
+            <option>One year</option>
+            <option>Two year</option>
+          </select>
+        </label>
+        <label>Internet service
+          <select id="internet">
+            <option>Fiber optic</option>
+            <option>DSL</option>
+            <option>No</option>
+          </select>
+        </label>
+        <label>Tech support
+          <select id="techsupport">
+            <option>No</option>
+            <option>Yes</option>
+          </select>
+        </label>
+        <label>Payment method
+          <select id="payment">
+            <option>Electronic check</option>
+            <option>Mailed check</option>
+            <option>Bank transfer</option>
+            <option>Credit card</option>
+          </select>
+        </label>
+        <label>Support calls (recent)
+          <input type="number" id="calls" value="3" min="0" required />
+        </label>
+        <button type="submit">Predict churn</button>
+      </form>
+      <div id="predict-result" style="display:none;"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Built with FastAPI + scikit-learn (5-model zoo + OOF stacking) on a CRISP-DM pipeline. See README.md for architecture.</p>
+  </footer>
+
+<script src="/static/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Market Basket Pattern Mining</title>
+<link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <header>
+    <h1>🛒 Market Basket Pattern Mining</h1>
+    <p class="subtitle">CRISP-DM demo project — Apriori association rules on grocery baskets.</p>
+  </header>
+
+  <main>
+    <section class="panel">
+      <h2>1. Build a cart</h2>
+      <p class="hint">Click items to add them, then see what the rules recommend next.</p>
+      <div id="item-grid" class="item-grid">Loading items…</div>
+    </section>
+
+    <section class="panel">
+      <h2>2. Cart &amp; recommendations</h2>
+      <div id="cart-box" class="hint">Cart is empty.</div>
+      <div id="rec-box"></div>
+    </section>
+
+    <section class="panel">
+      <h2>Top association rules (by lift)</h2>
+      <div id="rules-box">Loading rules…</div>
+    </section>
+
+    <section class="panel">
+      <h2>Model card (admin / data-scientist view)</h2>
+      <div id="metrics-box">Loading metrics…</div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Built with FastAPI + mlxtend (Apriori) on a CRISP-DM pipeline. See README.md for architecture.</p>
+  </footer>
+
+<script src="/static/app.js"></script>
+</body>
+</html>

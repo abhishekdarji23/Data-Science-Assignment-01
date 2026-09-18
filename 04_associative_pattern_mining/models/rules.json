@@ -1,0 +1,1391 @@
+[
+  {
+    "antecedents": [
+      "diapers"
+    ],
+    "consequents": [
+      "beer",
+      "wipes"
+    ],
+    "support": 0.0333,
+    "confidence": 0.369,
+    "lift": 8.0804
+  },
+  {
+    "antecedents": [
+      "beer",
+      "wipes"
+    ],
+    "consequents": [
+      "diapers"
+    ],
+    "support": 0.0333,
+    "confidence": 0.7299,
+    "lift": 8.0804
+  },
+  {
+    "antecedents": [
+      "wipes"
+    ],
+    "consequents": [
+      "diapers"
+    ],
+    "support": 0.0693,
+    "confidence": 0.4815,
+    "lift": 5.3301
+  },
+  {
+    "antecedents": [
+      "diapers"
+    ],
+    "consequents": [
+      "wipes"
+    ],
+    "support": 0.0693,
+    "confidence": 0.7675,
+    "lift": 5.3301
+  },
+  {
+    "antecedents": [
+      "beer",
+      "diapers"
+    ],
+    "consequents": [
+      "wipes"
+    ],
+    "support": 0.0333,
+    "confidence": 0.7353,
+    "lift": 5.1062
+  },
+  {
+    "antecedents": [
+      "parmesan",
+      "pasta"
+    ],
+    "consequents": [
+      "tomato_sauce"
+    ],
+    "support": 0.0463,
+    "confidence": 0.9392,
+    "lift": 4.5964
+  },
+  {
+    "antecedents": [
+      "apples",
+      "tomato_sauce"
+    ],
+    "consequents": [
+      "pasta"
+    ],
+    "support": 0.0343,
+    "confidence": 0.5598,
+    "lift": 3.9889
+  },
+  {
+    "antecedents": [
+      "butter",
+      "tomato_sauce"
+    ],
+    "consequents": [
+      "pasta"
+    ],
+    "support": 0.0323,
+    "confidence": 0.533,
+    "lift": 3.7979
+  },
+  {
+    "antecedents": [
+      "bread",
+      "tomato_sauce"
+    ],
+    "consequents": [
+      "pasta"
+    ],
+    "support": 0.0323,
+    "confidence": 0.5301,
+    "lift": 3.7771
+  },
+  {
+    "antecedents": [
+      "butter",
+      "pasta"
+    ],
+    "consequents": [
+      "tomato_sauce"
+    ],
+    "support": 0.0323,
+    "confidence": 0.7462,
+    "lift": 3.6517
+  },
+  {
+    "antecedents": [
+      "bread",
+      "pasta"
+    ],
+    "consequents": [
+      "tomato_sauce"
+    ],
+    "support": 0.0323,
+    "confidence": 0.7348,
+    "lift": 3.5963
+  },
+  {
+    "antecedents": [
+      "apples",
+      "pasta"
+    ],
+    "consequents": [
+      "tomato_sauce"
+    ],
+    "support": 0.0343,
+    "confidence": 0.7103,
+    "lift": 3.4764
+  },
+  {
+    "antecedents": [
+      "pasta"
+    ],
+    "consequents": [
+      "tomato_sauce"
+    ],
+    "support": 0.098,
+    "confidence": 0.6983,
+    "lift": 3.4176
+  },
+  {
+    "antecedents": [
+      "tomato_sauce"
+    ],
+    "consequents": [
+      "pasta"
+    ],
+    "support": 0.098,
+    "confidence": 0.4796,
+    "lift": 3.4176
+  },
+  {
+    "antecedents": [
+      "milk",
+      "pasta"
+    ],
+    "consequents": [
+      "tomato_sauce"
+    ],
+    "support": 0.0333,
+    "confidence": 0.6849,
+    "lift": 3.352
+  },
+  {
+    "antecedents": [
+      "pasta"
+    ],
+    "consequents": [
+      "parmesan",
+      "tomato_sauce"
+    ],
+    "support": 0.0463,
+    "confidence": 0.3302,
+    "lift": 3.3463
+  },
+  {
+    "antecedents": [
+      "parmesan",
+      "tomato_sauce"
+    ],
+    "consequents": [
+      "pasta"
+    ],
+    "support": 0.0463,
+    "confidence": 0.4696,
+    "lift": 3.3463
+  },
+  {
+    "antecedents": [
+      "bread",
+      "parmesan"
+    ],
+    "consequents": [
+      "tomato_sauce"
+    ],
+    "support": 0.0303,
+    "confidence": 0.6741,
+    "lift": 3.2989
+  },
+  {
+    "antecedents": [
+      "coffee",
+      "milk"
+    ],
+    "consequents": [
+      "sugar"
+    ],
+    "support": 0.0403,
+    "confidence": 0.5817,
+    "lift": 3.262
+  },
+  {
+    "antecedents": [
+      "butter",
+      "parmesan"
+    ],
+    "consequents": [
+      "tomato_sauce"
+    ],
+    "support": 0.031,
+    "confidence": 0.6643,
+    "lift": 3.251
+  },
+  {
+    "antecedents": [
+      "butter",
+      "tomato_sauce"
+    ],
+    "consequents": [
+      "parmesan"
+    ],
+    "support": 0.031,
+    "confidence": 0.511,
+    "lift": 3.2273
+  },
+  {
+    "antecedents": [
+      "milk",
+      "tomato_sauce"
+    ],
+    "consequents": [
+      "pasta"
+    ],
+    "support": 0.0333,
+    "confidence": 0.4525,
+    "lift": 3.2244
+  },
+  {
+    "antecedents": [
+      "bread",
+      "tomato_sauce"
+    ],
+    "consequents": [
+      "parmesan"
+    ],
+    "support": 0.0303,
+    "confidence": 0.4973,
+    "lift": 3.1406
+  },
+  {
+    "antecedents": [
+      "butter",
+      "salsa"
+    ],
+    "consequents": [
+      "chips"
+    ],
+    "support": 0.0397,
+    "confidence": 0.6538,
+    "lift": 3.1385
+  },
+  {
+    "antecedents": [
+      "coffee"
+    ],
+    "consequents": [
+      "sugar"
+    ],
+    "support": 0.1057,
+    "confidence": 0.5561,
+    "lift": 3.1185
+  },
+  {
+    "antecedents": [
+      "sugar"
+    ],
+    "consequents": [
+      "coffee"
+    ],
+    "support": 0.1057,
+    "confidence": 0.5925,
+    "lift": 3.1185
+  },
+  {
+    "antecedents": [
+      "diapers"
+    ],
+    "consequents": [
+      "beer"
+    ],
+    "support": 0.0453,
+    "confidence": 0.5018,
+    "lift": 3.0725
+  },
+  {
+    "antecedents": [
+      "milk",
+      "sugar"
+    ],
+    "consequents": [
+      "coffee"
+    ],
+    "support": 0.0403,
+    "confidence": 0.5817,
+    "lift": 3.0617
+  },
+  {
+    "antecedents": [
+      "tomato_sauce"
+    ],
+    "consequents": [
+      "parmesan"
+    ],
+    "support": 0.0987,
+    "confidence": 0.4829,
+    "lift": 3.0497
+  },
+  {
+    "antecedents": [
+      "parmesan"
+    ],
+    "consequents": [
+      "tomato_sauce"
+    ],
+    "support": 0.0987,
+    "confidence": 0.6232,
+    "lift": 3.0497
+  },
+  {
+    "antecedents": [
+      "milk",
+      "salsa"
+    ],
+    "consequents": [
+      "chips"
+    ],
+    "support": 0.0463,
+    "confidence": 0.629,
+    "lift": 3.019
+  },
+  {
+    "antecedents": [
+      "pasta",
+      "tomato_sauce"
+    ],
+    "consequents": [
+      "parmesan"
+    ],
+    "support": 0.0463,
+    "confidence": 0.4728,
+    "lift": 2.986
+  },
+  {
+    "antecedents": [
+      "bread",
+      "salsa"
+    ],
+    "consequents": [
+      "chips"
+    ],
+    "support": 0.035,
+    "confidence": 0.6213,
+    "lift": 2.9822
+  },
+  {
+    "antecedents": [
+      "diapers",
+      "wipes"
+    ],
+    "consequents": [
+      "beer"
+    ],
+    "support": 0.0333,
+    "confidence": 0.4808,
+    "lift": 2.9435
+  },
+  {
+    "antecedents": [
+      "apples",
+      "salsa"
+    ],
+    "consequents": [
+      "chips"
+    ],
+    "support": 0.033,
+    "confidence": 0.6111,
+    "lift": 2.9333
+  },
+  {
+    "antecedents": [
+      "butter",
+      "chips"
+    ],
+    "consequents": [
+      "salsa"
+    ],
+    "support": 0.0397,
+    "confidence": 0.5721,
+    "lift": 2.9091
+  },
+  {
+    "antecedents": [
+      "salsa"
+    ],
+    "consequents": [
+      "chips"
+    ],
+    "support": 0.119,
+    "confidence": 0.6051,
+    "lift": 2.9044
+  },
+  {
+    "antecedents": [
+      "chips"
+    ],
+    "consequents": [
+      "salsa"
+    ],
+    "support": 0.119,
+    "confidence": 0.5712,
+    "lift": 2.9044
+  },
+  {
+    "antecedents": [
+      "milk",
+      "parmesan"
+    ],
+    "consequents": [
+      "tomato_sauce"
+    ],
+    "support": 0.0303,
+    "confidence": 0.5759,
+    "lift": 2.8187
+  },
+  {
+    "antecedents": [
+      "apples",
+      "chips"
+    ],
+    "consequents": [
+      "salsa"
+    ],
+    "support": 0.033,
+    "confidence": 0.5531,
+    "lift": 2.8122
+  },
+  {
+    "antecedents": [
+      "bread",
+      "chips"
+    ],
+    "consequents": [
+      "salsa"
+    ],
+    "support": 0.035,
+    "confidence": 0.5497,
+    "lift": 2.7953
+  },
+  {
+    "antecedents": [
+      "chips",
+      "milk"
+    ],
+    "consequents": [
+      "salsa"
+    ],
+    "support": 0.0463,
+    "confidence": 0.543,
+    "lift": 2.7609
+  },
+  {
+    "antecedents": [
+      "milk",
+      "rice"
+    ],
+    "consequents": [
+      "chicken"
+    ],
+    "support": 0.0353,
+    "confidence": 0.5024,
+    "lift": 2.7155
+  },
+  {
+    "antecedents": [
+      "milk",
+      "tomato_sauce"
+    ],
+    "consequents": [
+      "parmesan"
+    ],
+    "support": 0.0303,
+    "confidence": 0.4118,
+    "lift": 2.6006
+  },
+  {
+    "antecedents": [
+      "rice"
+    ],
+    "consequents": [
+      "chicken"
+    ],
+    "support": 0.0927,
+    "confidence": 0.4752,
+    "lift": 2.5687
+  },
+  {
+    "antecedents": [
+      "chicken"
+    ],
+    "consequents": [
+      "rice"
+    ],
+    "support": 0.0927,
+    "confidence": 0.5009,
+    "lift": 2.5687
+  },
+  {
+    "antecedents": [
+      "butter",
+      "pasta"
+    ],
+    "consequents": [
+      "bread"
+    ],
+    "support": 0.0303,
+    "confidence": 0.7,
+    "lift": 2.5641
+  },
+  {
+    "antecedents": [
+      "chicken",
+      "milk"
+    ],
+    "consequents": [
+      "rice"
+    ],
+    "support": 0.0353,
+    "confidence": 0.484,
+    "lift": 2.4821
+  },
+  {
+    "antecedents": [
+      "bread",
+      "eggs"
+    ],
+    "consequents": [
+      "butter"
+    ],
+    "support": 0.0423,
+    "confidence": 0.7341,
+    "lift": 2.4579
+  },
+  {
+    "antecedents": [
+      "butter",
+      "parmesan"
+    ],
+    "consequents": [
+      "bread"
+    ],
+    "support": 0.031,
+    "confidence": 0.6643,
+    "lift": 2.4333
+  },
+  {
+    "antecedents": [
+      "butter",
+      "soda"
+    ],
+    "consequents": [
+      "bread"
+    ],
+    "support": 0.038,
+    "confidence": 0.6552,
+    "lift": 2.3999
+  },
+  {
+    "antecedents": [
+      "bananas",
+      "butter"
+    ],
+    "consequents": [
+      "bread"
+    ],
+    "support": 0.049,
+    "confidence": 0.6533,
+    "lift": 2.3932
+  },
+  {
+    "antecedents": [
+      "butter",
+      "yogurt"
+    ],
+    "consequents": [
+      "bread"
+    ],
+    "support": 0.035,
+    "confidence": 0.6442,
+    "lift": 2.3596
+  },
+  {
+    "antecedents": [
+      "butter",
+      "eggs"
+    ],
+    "consequents": [
+      "bread"
+    ],
+    "support": 0.0423,
+    "confidence": 0.6414,
+    "lift": 2.3495
+  },
+  {
+    "antecedents": [
+      "bananas",
+      "bread"
+    ],
+    "consequents": [
+      "butter"
+    ],
+    "support": 0.049,
+    "confidence": 0.7,
+    "lift": 2.3437
+  },
+  {
+    "antecedents": [
+      "bread",
+      "milk"
+    ],
+    "consequents": [
+      "butter"
+    ],
+    "support": 0.071,
+    "confidence": 0.6916,
+    "lift": 2.3155
+  },
+  {
+    "antecedents": [
+      "butter",
+      "tomato_sauce"
+    ],
+    "consequents": [
+      "bread"
+    ],
+    "support": 0.0383,
+    "confidence": 0.6319,
+    "lift": 2.3145
+  },
+  {
+    "antecedents": [
+      "butter",
+      "sugar"
+    ],
+    "consequents": [
+      "bread"
+    ],
+    "support": 0.032,
+    "confidence": 0.6316,
+    "lift": 2.3135
+  },
+  {
+    "antecedents": [
+      "bread",
+      "pasta"
+    ],
+    "consequents": [
+      "butter"
+    ],
+    "support": 0.0303,
+    "confidence": 0.6894,
+    "lift": 2.3082
+  },
+  {
+    "antecedents": [
+      "bread",
+      "parmesan"
+    ],
+    "consequents": [
+      "butter"
+    ],
+    "support": 0.031,
+    "confidence": 0.6889,
+    "lift": 2.3065
+  },
+  {
+    "antecedents": [
+      "bread",
+      "yogurt"
+    ],
+    "consequents": [
+      "butter"
+    ],
+    "support": 0.035,
+    "confidence": 0.6863,
+    "lift": 2.2978
+  },
+  {
+    "antecedents": [
+      "apples",
+      "bread"
+    ],
+    "consequents": [
+      "butter"
+    ],
+    "support": 0.0553,
+    "confidence": 0.686,
+    "lift": 2.2967
+  },
+  {
+    "antecedents": [
+      "butter",
+      "chips"
+    ],
+    "consequents": [
+      "bread"
+    ],
+    "support": 0.0433,
+    "confidence": 0.625,
+    "lift": 2.2894
+  },
+  {
+    "antecedents": [
+      "bread",
+      "chips"
+    ],
+    "consequents": [
+      "butter"
+    ],
+    "support": 0.0433,
+    "confidence": 0.6806,
+    "lift": 2.2789
+  },
+  {
+    "antecedents": [
+      "bread",
+      "sugar"
+    ],
+    "consequents": [
+      "butter"
+    ],
+    "support": 0.032,
+    "confidence": 0.6761,
+    "lift": 2.2636
+  },
+  {
+    "antecedents": [
+      "bread",
+      "coffee"
+    ],
+    "consequents": [
+      "butter"
+    ],
+    "support": 0.0323,
+    "confidence": 0.6736,
+    "lift": 2.2554
+  },
+  {
+    "antecedents": [
+      "butter",
+      "salsa"
+    ],
+    "consequents": [
+      "bread"
+    ],
+    "support": 0.0373,
+    "confidence": 0.6154,
+    "lift": 2.2542
+  },
+  {
+    "antecedents": [
+      "butter"
+    ],
+    "consequents": [
+      "bread"
+    ],
+    "support": 0.1837,
+    "confidence": 0.615,
+    "lift": 2.2526
+  },
+  {
+    "antecedents": [
+      "bread"
+    ],
+    "consequents": [
+      "butter"
+    ],
+    "support": 0.1837,
+    "confidence": 0.6728,
+    "lift": 2.2526
+  },
+  {
+    "antecedents": [
+      "apples",
+      "butter"
+    ],
+    "consequents": [
+      "bread"
+    ],
+    "support": 0.0553,
+    "confidence": 0.6148,
+    "lift": 2.2521
+  },
+  {
+    "antecedents": [
+      "bread",
+      "chicken"
+    ],
+    "consequents": [
+      "butter"
+    ],
+    "support": 0.0333,
+    "confidence": 0.6711,
+    "lift": 2.2471
+  },
+  {
+    "antecedents": [
+      "butter",
+      "milk"
+    ],
+    "consequents": [
+      "bread"
+    ],
+    "support": 0.071,
+    "confidence": 0.6068,
+    "lift": 2.2228
+  },
+  {
+    "antecedents": [
+      "pasta"
+    ],
+    "consequents": [
+      "parmesan"
+    ],
+    "support": 0.0493,
+    "confidence": 0.3515,
+    "lift": 2.2203
+  },
+  {
+    "antecedents": [
+      "parmesan"
+    ],
+    "consequents": [
+      "pasta"
+    ],
+    "support": 0.0493,
+    "confidence": 0.3116,
+    "lift": 2.2203
+  },
+  {
+    "antecedents": [
+      "bread",
+      "salsa"
+    ],
+    "consequents": [
+      "butter"
+    ],
+    "support": 0.0373,
+    "confidence": 0.6627,
+    "lift": 2.2189
+  },
+  {
+    "antecedents": [
+      "bananas",
+      "milk"
+    ],
+    "consequents": [
+      "cereal"
+    ],
+    "support": 0.033,
+    "confidence": 0.3548,
+    "lift": 2.1814
+  },
+  {
+    "antecedents": [
+      "butter",
+      "chicken"
+    ],
+    "consequents": [
+      "bread"
+    ],
+    "support": 0.0333,
+    "confidence": 0.5952,
+    "lift": 2.1804
+  },
+  {
+    "antecedents": [
+      "bread",
+      "soda"
+    ],
+    "consequents": [
+      "butter"
+    ],
+    "support": 0.038,
+    "confidence": 0.6477,
+    "lift": 2.1687
+  },
+  {
+    "antecedents": [
+      "butter",
+      "rice"
+    ],
+    "consequents": [
+      "bread"
+    ],
+    "support": 0.0317,
+    "confidence": 0.5864,
+    "lift": 2.1481
+  },
+  {
+    "antecedents": [
+      "apples",
+      "cereal"
+    ],
+    "consequents": [
+      "milk"
+    ],
+    "support": 0.0383,
+    "confidence": 0.8099,
+    "lift": 2.1425
+  },
+  {
+    "antecedents": [
+      "butter",
+      "coffee"
+    ],
+    "consequents": [
+      "bread"
+    ],
+    "support": 0.0323,
+    "confidence": 0.5808,
+    "lift": 2.1276
+  },
+  {
+    "antecedents": [
+      "bread",
+      "tomato_sauce"
+    ],
+    "consequents": [
+      "butter"
+    ],
+    "support": 0.0383,
+    "confidence": 0.6284,
+    "lift": 2.1041
+  },
+  {
+    "antecedents": [
+      "apples",
+      "milk"
+    ],
+    "consequents": [
+      "cereal"
+    ],
+    "support": 0.0383,
+    "confidence": 0.3333,
+    "lift": 2.0492
+  },
+  {
+    "antecedents": [
+      "bananas",
+      "cereal"
+    ],
+    "consequents": [
+      "milk"
+    ],
+    "support": 0.033,
+    "confidence": 0.7615,
+    "lift": 2.0147
+  },
+  {
+    "antecedents": [
+      "bread",
+      "rice"
+    ],
+    "consequents": [
+      "butter"
+    ],
+    "support": 0.0317,
+    "confidence": 0.5975,
+    "lift": 2.0005
+  },
+  {
+    "antecedents": [
+      "wipes"
+    ],
+    "consequents": [
+      "beer"
+    ],
+    "support": 0.0457,
+    "confidence": 0.3171,
+    "lift": 1.9416
+  },
+  {
+    "antecedents": [
+      "milk"
+    ],
+    "consequents": [
+      "cereal"
+    ],
+    "support": 0.1183,
+    "confidence": 0.3131,
+    "lift": 1.9245
+  },
+  {
+    "antecedents": [
+      "cereal"
+    ],
+    "consequents": [
+      "milk"
+    ],
+    "support": 0.1183,
+    "confidence": 0.7275,
+    "lift": 1.9245
+  },
+  {
+    "antecedents": [
+      "butter",
+      "cereal"
+    ],
+    "consequents": [
+      "milk"
+    ],
+    "support": 0.0337,
+    "confidence": 0.7163,
+    "lift": 1.895
+  },
+  {
+    "antecedents": [
+      "bread",
+      "milk"
+    ],
+    "consequents": [
+      "cereal"
+    ],
+    "support": 0.031,
+    "confidence": 0.3019,
+    "lift": 1.8562
+  },
+  {
+    "antecedents": [
+      "bread",
+      "cereal"
+    ],
+    "consequents": [
+      "milk"
+    ],
+    "support": 0.031,
+    "confidence": 0.6992,
+    "lift": 1.8499
+  },
+  {
+    "antecedents": [
+      "bananas",
+      "butter"
+    ],
+    "consequents": [
+      "apples"
+    ],
+    "support": 0.037,
+    "confidence": 0.4933,
+    "lift": 1.7189
+  },
+  {
+    "antecedents": [
+      "apples",
+      "bread"
+    ],
+    "consequents": [
+      "bananas"
+    ],
+    "support": 0.0337,
+    "confidence": 0.4174,
+    "lift": 1.7128
+  },
+  {
+    "antecedents": [
+      "bananas",
+      "milk"
+    ],
+    "consequents": [
+      "apples"
+    ],
+    "support": 0.0457,
+    "confidence": 0.491,
+    "lift": 1.7109
+  },
+  {
+    "antecedents": [
+      "apples",
+      "butter"
+    ],
+    "consequents": [
+      "bananas"
+    ],
+    "support": 0.037,
+    "confidence": 0.4111,
+    "lift": 1.6872
+  },
+  {
+    "antecedents": [
+      "bananas",
+      "bread"
+    ],
+    "consequents": [
+      "apples"
+    ],
+    "support": 0.0337,
+    "confidence": 0.481,
+    "lift": 1.6758
+  },
+  {
+    "antecedents": [
+      "apples",
+      "milk"
+    ],
+    "consequents": [
+      "bananas"
+    ],
+    "support": 0.0457,
+    "confidence": 0.3971,
+    "lift": 1.6297
+  },
+  {
+    "antecedents": [
+      "apples"
+    ],
+    "consequents": [
+      "bananas"
+    ],
+    "support": 0.1087,
+    "confidence": 0.3786,
+    "lift": 1.5539
+  },
+  {
+    "antecedents": [
+      "bananas"
+    ],
+    "consequents": [
+      "apples"
+    ],
+    "support": 0.1087,
+    "confidence": 0.446,
+    "lift": 1.5539
+  },
+  {
+    "antecedents": [
+      "chips",
+      "milk"
+    ],
+    "consequents": [
+      "butter"
+    ],
+    "support": 0.032,
+    "confidence": 0.375,
+    "lift": 1.2556
+  },
+  {
+    "antecedents": [
+      "butter",
+      "chips"
+    ],
+    "consequents": [
+      "milk"
+    ],
+    "support": 0.032,
+    "confidence": 0.4615,
+    "lift": 1.221
+  },
+  {
+    "antecedents": [
+      "pasta",
+      "tomato_sauce"
+    ],
+    "consequents": [
+      "apples"
+    ],
+    "support": 0.0343,
+    "confidence": 0.3503,
+    "lift": 1.2207
+  },
+  {
+    "antecedents": [
+      "pasta",
+      "tomato_sauce"
+    ],
+    "consequents": [
+      "bread"
+    ],
+    "support": 0.0323,
+    "confidence": 0.3299,
+    "lift": 1.2085
+  },
+  {
+    "antecedents": [
+      "pasta"
+    ],
+    "consequents": [
+      "apples"
+    ],
+    "support": 0.0483,
+    "confidence": 0.3444,
+    "lift": 1.2001
+  },
+  {
+    "antecedents": [
+      "butter",
+      "milk"
+    ],
+    "consequents": [
+      "apples"
+    ],
+    "support": 0.0393,
+    "confidence": 0.3362,
+    "lift": 1.1714
+  },
+  {
+    "antecedents": [
+      "apples",
+      "butter"
+    ],
+    "consequents": [
+      "milk"
+    ],
+    "support": 0.0393,
+    "confidence": 0.437,
+    "lift": 1.1562
+  },
+  {
+    "antecedents": [
+      "pasta"
+    ],
+    "consequents": [
+      "bread"
+    ],
+    "support": 0.044,
+    "confidence": 0.3135,
+    "lift": 1.1485
+  },
+  {
+    "antecedents": [
+      "apples",
+      "milk"
+    ],
+    "consequents": [
+      "butter"
+    ],
+    "support": 0.0393,
+    "confidence": 0.342,
+    "lift": 1.1452
+  },
+  {
+    "antecedents": [
+      "apples",
+      "bananas"
+    ],
+    "consequents": [
+      "butter"
+    ],
+    "support": 0.037,
+    "confidence": 0.3405,
+    "lift": 1.14
+  },
+  {
+    "antecedents": [
+      "soda"
+    ],
+    "consequents": [
+      "bread"
+    ],
+    "support": 0.0587,
+    "confidence": 0.3104,
+    "lift": 1.137
+  },
+  {
+    "antecedents": [
+      "apples",
+      "bananas"
+    ],
+    "consequents": [
+      "bread"
+    ],
+    "support": 0.0337,
+    "confidence": 0.3098,
+    "lift": 1.1349
+  },
+  {
+    "antecedents": [
+      "cereal",
+      "milk"
+    ],
+    "consequents": [
+      "apples"
+    ],
+    "support": 0.0383,
+    "confidence": 0.3239,
+    "lift": 1.1287
+  },
+  {
+    "antecedents": [
+      "parmesan",
+      "tomato_sauce"
+    ],
+    "consequents": [
+      "bread"
+    ],
+    "support": 0.0303,
+    "confidence": 0.3074,
+    "lift": 1.1261
+  },
+  {
+    "antecedents": [
+      "chips"
+    ],
+    "consequents": [
+      "bread"
+    ],
+    "support": 0.0637,
+    "confidence": 0.3056,
+    "lift": 1.1194
+  },
+  {
+    "antecedents": [
+      "chips",
+      "salsa"
+    ],
+    "consequents": [
+      "butter"
+    ],
+    "support": 0.0397,
+    "confidence": 0.3333,
+    "lift": 1.1161
+  },
+  {
+    "antecedents": [
+      "chips"
+    ],
+    "consequents": [
+      "butter"
+    ],
+    "support": 0.0693,
+    "confidence": 0.3328,
+    "lift": 1.1143
+  },
+  {
+    "antecedents": [
+      "apples",
+      "bananas"
+    ],
+    "consequents": [
+      "milk"
+    ],
+    "support": 0.0457,
+    "confidence": 0.4202,
+    "lift": 1.1118
+  },
+  {
+    "antecedents": [
+      "pasta",
+      "tomato_sauce"
+    ],
+    "consequents": [
+      "butter"
+    ],
+    "support": 0.0323,
+    "confidence": 0.3299,
+    "lift": 1.1047
+  }
+]

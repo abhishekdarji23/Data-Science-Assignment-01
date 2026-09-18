@@ -1,0 +1,81 @@
+{
+  "n_train": 48000,
+  "n_test": 12000,
+  "mae_seconds": 81.2,
+  "rmse_seconds": 121.5,
+  "rmsle": 0.2952,
+  "r2": 0.8907,
+  "features": [
+    "passenger_count",
+    "distance_mi",
+    "manhattan_distance_mi",
+    "bearing_deg",
+    "hour",
+    "day_of_week",
+    "month",
+    "is_weekend",
+    "is_rush_hour",
+    "pickup_latitude",
+    "pickup_longitude",
+    "dropoff_latitude",
+    "dropoff_longitude"
+  ],
+  "model": "GradientBoostingRegressor",
+  "target_transform": "log1p",
+  "split": "time_based_80_20",
+  "random_seed": 42,
+  "feature_importance": [
+    {
+      "feature": "distance_mi",
+      "importance": 0.9375
+    },
+    {
+      "feature": "is_rush_hour",
+      "importance": 0.0376
+    },
+    {
+      "feature": "manhattan_distance_mi",
+      "importance": 0.0123
+    },
+    {
+      "feature": "day_of_week",
+      "importance": 0.0021
+    },
+    {
+      "feature": "bearing_deg",
+      "importance": 0.0019
+    },
+    {
+      "feature": "is_weekend",
+      "importance": 0.0018
+    },
+    {
+      "feature": "pickup_latitude",
+      "importance": 0.0016
+    },
+    {
+      "feature": "dropoff_latitude",
+      "importance": 0.0013
+    },
+    {
+      "feature": "pickup_longitude",
+      "importance": 0.0011
+    },
+    {
+      "feature": "dropoff_longitude",
+      "importance": 0.0009
+    },
+    {
+      "feature": "hour",
+      "importance": 0.0008
+    },
+    {
+      "feature": "month",
+      "importance": 0.0006
+    },
+    {
+      "feature": "passenger_count",
+      "importance": 0.0005
+    }
+  ]
+}

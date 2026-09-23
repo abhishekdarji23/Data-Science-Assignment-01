@@ -20,7 +20,7 @@ below was actually run and checked (see each project's own
 ## 🏛️ Systems Portfolio Index (16 Projects)
 
 | # | System Title & Directory | Domain & Methodology (as actually built) | Video Walkthrough |
-|---|---|---|:---:|:---:|:---:|
+|---|---|---|---|
 | **0** | [**Dynamic Todo Workspace**](./00_dynamic_todo_workspace) | Full-stack reactive task workspace | [🎬 link](https://drive.google.com/file/d/10pG4lQvrkzXTnZEO8bt0UZm0QjceVTk4/view?usp=sharing) |
 | **1** | [**NYC Taxi Trip Prediction**](./01_nyc_taxi_trip_prediction) | CRISP-DM regression — GradientBoostingRegressor, time-based split, R²≈0.89 | [🎬 link](https://drive.google.com/file/d/10h-7P43ea8H4qHm2d767YA-2tQoPivgi/view?usp=sharing) |
 | **2** | [**NanoLlama SFT LLM**](./02_nano_llm_transformer) | PyTorch autoregressive transformer | [🎬 link](https://drive.google.com/file/d/1WvWEBYZmksFTUGb1UITLmavEvalLAMA8/view?usp=sharing) |
